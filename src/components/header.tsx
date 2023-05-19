@@ -25,14 +25,15 @@ export const Header = () => {
         ))}
       </ul>
 
-      <div className="sm:hidden  flex flex-1 justify-between items-center">
+
+      {/* For Non-Mobile */}
+      <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
           alt="menu"
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle(!toggle)}
         />
-
         <div
           className={`${
             !toggle ? "hidden" : "flex"
