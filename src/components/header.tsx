@@ -8,7 +8,7 @@ export const Header = () => {
   const [toggle, setToggle] = useState(false); 
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex py-6 px-10 justify-between items-center navbar">
       <img src={logo.src} alt="hoobank" className="w-[60px] h-[60px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -25,7 +25,7 @@ export const Header = () => {
         ))}
       </ul>
 
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      <div className="sm:hidden  flex flex-1 justify-between items-center">
         <img
           src={toggle ? close : menu}
           alt="menu"
