@@ -1,6 +1,6 @@
 import { navLink } from "@/constants/constant";
 import { useState } from "react";
-import {logo, menu} from "../assets"
+import {logo, menu, closeMenu} from "../assets"
 
 
 export const Header = () => {
@@ -29,8 +29,8 @@ export const Header = () => {
       {/* For Non-Mobile */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
-          src={toggle ? close : menu}
-          alt="menu"
+          src={toggle ? closeMenu.src : menu.src}
+          alt="menu-img"
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle(!toggle)}
         />
