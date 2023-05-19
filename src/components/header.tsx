@@ -26,7 +26,7 @@ export const Header = () => {
       </ul>
 
 
-      {/* For Non-Mobile */}
+      {/* For Mobile */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? closeMenu.src : menu.src}
