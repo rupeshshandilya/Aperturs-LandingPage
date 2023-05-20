@@ -1,5 +1,7 @@
 import React from 'react';
 import {imhero} from "../assets"
+import Image from 'next/image';
+
 export const Hero = () => {
   return (
     <section className="bg-white" id='hero'>
@@ -17,7 +19,7 @@ export const Hero = () => {
             </a>
         </div>
         <div className="lg:mt-0 lg:col-span-5 lg:flex">
-            <img src={imhero.src} alt="mockup" />
+            <Image src={imhero.src} alt="mockup" />
         </div>                
     </div>
 </section>

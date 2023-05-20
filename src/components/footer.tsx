@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import { logo } from "@/assets";
+import Image from 'next/image';
 
 const LINKS = [
   {
@@ -24,7 +25,7 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6">
-            <img src={logo.src} className="h-[70px] w-[70px]" />
+            <Image src={logo.src} className="h-[70px] w-[70px]"  alt="apertus-logo"/>
             <p>
               Flowbite has code in one place and 
                I'm not joking when I say it

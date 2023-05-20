@@ -6,6 +6,8 @@ import {
   Typography,
   IconButton,
 } from "@material-tailwind/react";
+import Image from 'next/image';
+
  
 export function Header() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -76,7 +78,7 @@ export function Header() {
     <>
       <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-gray-900">
-          <img src={logo.src} className="mr-4 cursor-pointer py-1.5 w-[60px] h-[60px]"/>
+          <Image src={logo.src} className="mr-4 cursor-pointer py-1.5 w-[60px] h-[60px]" alt="apertus-logo"/>
           <div className="flex items-center gap-4 text-gray-900">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <IconButton

@@ -1,5 +1,6 @@
 import React from 'react'
 import { logo } from '@/assets'
+import Image from 'next/image';
 
 export const AboutUs = () => {
   return (
@@ -11,8 +12,8 @@ export const AboutUs = () => {
             <p className='text-gray-900'>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
         </div>
         <div className="grid grid-cols-2 gap-4 mt-8">
-            <img className="w-full rounded-lg" src={logo.src} alt="office content 1" />
-            <img className="mt-4 w-full lg:mt-10 rounded-lg" src={logo.src} alt="office content 2" />
+            <Image className="w-full rounded-lg" src={logo.src} alt="office content 1" />
+            <Image className="mt-4 w-full lg:mt-10 rounded-lg" src={logo.src} alt="office content 2" />
         </div>
     </div>
 </section>
