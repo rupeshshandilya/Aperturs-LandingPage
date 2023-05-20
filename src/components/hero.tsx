@@ -19,7 +19,7 @@ export const Hero = () => {
             </a>
         </div>
         <div className="lg:mt-0 lg:col-span-5 lg:flex">
-            <Image src={imhero.src} alt="mockup" />
+            <Image src={imhero.src} width={500} height={20} alt="mockup" />
         </div>                
     </div>
 </section>
