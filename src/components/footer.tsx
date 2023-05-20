@@ -28,7 +28,7 @@ export default function Footer() {
             <Image src={logo.src} className="h-[70px] w-[70px]"  alt="apertus-logo"/>
             <p>
               Flowbite has code in one place and 
-               I'm not joking when I say it
+               I&apos;m not joking when I say it
               took me a matter of minutes to copy the code, customise it.
             </p>
           </Typography>
