@@ -73,9 +73,6 @@ export const Testimonial = () => {
               </figcaption>    
           </figure>
       </div>
-      <div className="text-center">
-          <a href="#" className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium bg-blue-400 hover:bg-blue-600 font-regular text-white rounded-lg">Show more...</a> 
-      </div>
     </div>
 </section>
   );
