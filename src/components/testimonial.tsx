@@ -9,7 +9,7 @@ export const Testimonial = () => {
   <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-sm">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold">Testimonials</h2>
-          <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Apertus Testimonial</p>
+          <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Aperturs Testimonial</p>
       </div> 
       <div className="grid mb-8 lg:mb-12 lg:grid-cols-2">
           <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r">
@@ -22,8 +22,8 @@ export const Testimonial = () => {
               <figcaption className="flex justify-center items-center space-x-3">
                   <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" width={10} height={10}/>
                   <div className="space-y-0.5 font-medium text-left">
-                      <div>Apertus</div>
-                      <div className="text-sm font-light text-gray-500 dark:text-gray-400">Apertus Developer</div>
+                      <div>Aperturs</div>
+                      <div className="text-sm font-light text-gray-500 dark:text-gray-400">Aperturs Developer</div>
                   </div>
               </figcaption>    
           </figure>
@@ -37,8 +37,8 @@ export const Testimonial = () => {
               <figcaption className="flex justify-center items-center space-x-3">
                   <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" width={10} height={10}/>
                   <div className="space-y-0.5 font-medium text-left">
-                      <div>Apertus</div>
-                      <div className="text-sm font-light text-gray-500 dark:text-gray-400">Apertus Developer</div>
+                      <div>Aperturs</div>
+                      <div className="text-sm font-light text-gray-500 dark:text-gray-400">Aperturs Developer</div>
                   </div>
               </figcaption>    
           </figure>
@@ -52,8 +52,8 @@ export const Testimonial = () => {
               <figcaption className="flex justify-center items-center space-x-3">
                   <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" width={10} height={10}/>
                   <div className="space-y-0.5 font-medium text-left">
-                      <div>Apertus</div>
-                      <div className="text-sm font-light text-gray-500 dark:text-gray-400">Apertus Developer</div>
+                      <div>Aperturs</div>
+                      <div className="text-sm font-light text-gray-500 dark:text-gray-400">Aperturs Developer</div>
                   </div>
               </figcaption>    
           </figure>
@@ -67,8 +67,8 @@ export const Testimonial = () => {
               <figcaption className="flex justify-center items-center space-x-3">
                   <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" width={10} height={10}/>
                   <div className="space-y-0.5 font-medium text-left">
-                      <div>Apertus</div>
-                      <div className="text-sm font-light text-gray-500 dark:text-gray-400">Apertus Developer</div>
+                      <div>Aperturs</div>
+                      <div className="text-sm font-light text-gray-500 dark:text-gray-400">Aperturs Developer</div>
                   </div>
               </figcaption>    
           </figure>
