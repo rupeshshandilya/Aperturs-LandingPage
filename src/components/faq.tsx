@@ -3,8 +3,8 @@ import React from 'react'
 export const FAQ = () => {
   return (
     <section className="min-w-screen animation-fade animation-delay tails-selected-element relative bg-white py-16" id="faq">
-        <div className="container mx-auto px-0 px-8 sm:px-12 xl:px-5">
-          <h3 className="mt-1 text-left text-2xl font-bold text-gray-800 sm:mx-0 sm:mx-6 sm:text-center sm:text-3xl md:text-4xl lg:text-5xl">
+        <div className="container mx-auto px-8 sm:px-12 xl:px-5">
+          <h3 className="mt-1 text-left text-2xl font-bold text-gray-800 sm:mx-6 sm:text-center sm:text-3xl md:text-4xl lg:text-5xl">
             Frequently Asked Questions
           </h3>
           <div
