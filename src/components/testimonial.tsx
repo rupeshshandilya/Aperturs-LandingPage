@@ -20,7 +20,7 @@ export const Testimonial = () => {
                   <p className="my-4">If you care for your time, I hands down would go with this.&quot;</p>
               </blockquote>
               <figcaption className="flex justify-center items-center space-x-3">
-                  <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" />
+                  <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" width={10} height={10}/>
                   <div className="space-y-0.5 font-medium text-left">
                       <div>Apertus</div>
                       <div className="text-sm font-light text-gray-500 dark:text-gray-400">Apertus Developer</div>
@@ -35,7 +35,7 @@ export const Testimonial = () => {
                   <p className="my-4">If you care for your time, I hands down would go with this.&quot;</p>
               </blockquote>
               <figcaption className="flex justify-center items-center space-x-3">
-                  <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" />
+                  <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" width={10} height={10}/>
                   <div className="space-y-0.5 font-medium text-left">
                       <div>Apertus</div>
                       <div className="text-sm font-light text-gray-500 dark:text-gray-400">Apertus Developer</div>
@@ -50,7 +50,7 @@ export const Testimonial = () => {
                   <p className="my-4">If you care for your time, I hands down would go with this.&quot;</p>
               </blockquote>
               <figcaption className="flex justify-center items-center space-x-3">
-                  <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" />
+                  <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" width={10} height={10}/>
                   <div className="space-y-0.5 font-medium text-left">
                       <div>Apertus</div>
                       <div className="text-sm font-light text-gray-500 dark:text-gray-400">Apertus Developer</div>
@@ -65,7 +65,7 @@ export const Testimonial = () => {
                   <p className="my-4">If you care for your time, I hands down would go with this.&quot;</p>
               </blockquote>
               <figcaption className="flex justify-center items-center space-x-3">
-                  <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" />
+                  <Image className="w-9 h-9 rounded-full" src={logo.src} alt="profile picture" width={10} height={10}/>
                   <div className="space-y-0.5 font-medium text-left">
                       <div>Apertus</div>
                       <div className="text-sm font-light text-gray-500 dark:text-gray-400">Apertus Developer</div>
