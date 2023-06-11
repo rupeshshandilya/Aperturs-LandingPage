@@ -2,8 +2,6 @@ import { Typography } from "@material-tailwind/react";
 import { logo } from "@/assets";
 import Image from 'next/image';
 
-const currentYear = new Date().getFullYear();
-
 export default function Footer() {
   return (
     <section className="body-font tails-selected-element bg-white text-gray-700">
