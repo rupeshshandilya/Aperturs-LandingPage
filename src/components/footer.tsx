@@ -15,7 +15,7 @@ export default function Footer() {
             Aperturs<span className="text-indigo-600">.</span>
           </a>
           <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:mt-0 sm:border-l sm:border-gray-200 sm:pl-4">
-            © 2023 Aperturs -  All Rights Reserved
+            © {new Date().getFullYear()} Aperturs -  All Rights Reserved
           </p>
           <span className="mt-4 inline-flex justify-center space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
             <a href="#" className="text-gray-400 hover:text-gray-500">
