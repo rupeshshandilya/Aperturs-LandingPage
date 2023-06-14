@@ -8,6 +8,7 @@ const testimonialData = [
         description: "Aperturs transformed my content sharing as a web developer. Seamless GitHub integration, dynamic posts, and customization options made it effortless and efficient. Highly recommended!",
         position: "Web Developer",
         imgeUrl: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg",
+        id:"1",
         starIcon: <ul className="mb-0 flex justify-center">
         <li>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" className="w-5 text-warning">
@@ -46,6 +47,7 @@ const testimonialData = [
         description: "Aperturs has revolutionized content sharing for Android developers like me. With GitHub integration and dynamic post generation, it's an efficient and indispensable tool for showcasing my work. ",
         position: "Android Developer" ,
         imgeUrl: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg",
+        id:"2",
         starIcon: <ul className="mb-0 flex justify-center">
         <li>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" className="w-5 text-warning">
@@ -83,6 +85,7 @@ const testimonialData = [
         name: "John Smith",
         description: "For software engineers, material sharing has been simplified by Aperturs. It is an indispensable tool for showing projects and updates because it integrates with GitHub and generates posts dynamically. Software engineers should definitely consider this!",
         position: "Software Developer",
+        id:"3",
         imgeUrl: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).jpg",
         starIcon: <ul className="mb-0 flex justify-center">
         <li>
@@ -128,7 +131,7 @@ export const Testimonial = () => {
     <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
 
         {testimonialData.map((data)=>(
-                    <div className="mb-12 md:mb-0">
+                    <div className="mb-12 md:mb-0" key={data.id}>
                     <div className="mb-6 flex justify-center">
                       <img src={data.imgeUrl}
                         className="w-32 rounded-full shadow-lg dark:shadow-black/20" />
